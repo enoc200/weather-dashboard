@@ -1,6 +1,6 @@
 # Weather Dashboard
 
-Simple full-stack weather dashboard for learning:
+Dockerized Full-stack weather dashboard :
 
 - React frontend
 - Node.js backend API
@@ -48,20 +48,5 @@ docker compose up --build
 
 The images reuse the manually installed dependencies from the workspace, so no package install runs during build.
 
-## API
 
-Backend home: `http://localhost:4000/`
 
-`GET /api/weather?city=London`
-
-Example response:
-
-```json
-{
-  "city": "London, Greater London, United Kingdom",
-  "temperature": 18.2,
-  "windspeed": 9.4,
-  "weatherCode": 3,
-  "weatherDescription": "Partly cloudy"
-}
-```
